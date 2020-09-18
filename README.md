@@ -1,5 +1,6 @@
 # sejen-deduplication
-Using simple machine learning techniques for Identity de-duplication
+Using this simple machine learning techniques for identity de-duplication based on biographic data.
+
 # Who is this resource for?
 This resource is useful to deduplicate identity based on simple biographic data such as name, gender, address and birthdate. The particularity of this solution is that for the deduplication to work, the fields do not need to have an exact match between entities and values can be missing. The solution also makes use of simple machine learning techniques for the deduplication.
 Use this resource to anyone who is looking for a simple option to deduplicate digital records such as patient or enrollment records when the data is not completely clean.
@@ -34,7 +35,7 @@ The cost of this solution is negligeable as the tools (Python and machine learni
 
 # How do you run the script?
 
-First ensure that you have Python 3 installed on your machine. This script has only been tested with Python 3.6.x but may work with previous versions. Then follow the steps below
+First ensure that you have Python 3 installed on your machine. This script has only been tested with Python 3.6.x but may work with previous versions. Then follow the steps below:
 
 ## Installing virtualenv
 
@@ -46,7 +47,7 @@ First ensure that you have Python 3 installed on your machine. This script has o
 
 ## Activate the virtual environment
 
-Before you can start installing or using packages in your virtual environment you’ll need to activate it. Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH
+Before you can start installing or using packages in your virtual environment you’ll need to activate it. Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH:
 
 <pre>
 source env/bin/activate
