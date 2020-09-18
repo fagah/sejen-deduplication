@@ -32,4 +32,42 @@ Third, consult the simple Python source code that uses machine learning techniqu
 The cost of this solution is negligeable as the tools (Python and machine learning libraries) are all open source and the techniques on how to use the python code is accessible to any developer with reasonable Python coding skills.
 
 
+# How to run the script ?
 
+You have to add libraries to the mahcine which will run the script and launch it
+
+# Installing virtualenv
+
+<a href="https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/">virtualenv</a> is used to manage Python packages for different projects. Using virtualenv allows you to avoid installing Python packages globally which could break system tools or other projects. You can install virtualenv using pip.
+
+<pre>
+  python3 -m pip install --user virtualenv
+</pre>
+
+# Activating a virtual environment
+
+Before you can start installing or using packages in your virtual environment you’ll need to activate it. Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH
+
+<pre>
+source env/bin/activate
+</pre>
+
+# Installing packages
+
+Now that you’re in your virtual environment you can install packages. Let’s install the Requests library from the Python Package Index (PyPI):
+
+<pre>
+pip install dedupe
+</pre>
+
+<pre>
+pip install future
+</pre>
+
+
+<pre>
+pip install unidecode
+</pre>
+
+# Run the script
+python dedupecode.py
