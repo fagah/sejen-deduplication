@@ -5,7 +5,7 @@ This resource is useful to deduplicate identity based on simple biographic data 
 Use this resource to anyone who is looking for a simple option to deduplicate digital records such as patient or enrollment records when the data is not completely clean.
 # Who owns and updates this resource?
 This resource was originally created by *SEJEN CI* and is also hosted online at the Data Collaborative for Local Impact (DCLI website). 
-The code used for this project is available in a Github repository that can be reached here
+The code used for this project is available in a Github repository that can be reached here: https://github.com/fagah/sejen-deduplication
 
 For questions, ideas or comments, please contact info@sejen.ci
 
@@ -13,7 +13,7 @@ For questions, ideas or comments, please contact info@sejen.ci
 This resource has been implemented by SEJEN CI for the the Ministry of Health in Cote D’Ivoire, with funding by PEPFAR and MCC. The scope of implementation covers the HIV/AIDS patient population of a local PEPFAR implementation partner with community-based health-care facilities spread across Cote d’Ivoire. 
 
 This resource was applied to the database of patient records of two large health units of the local implementation partner. The goal was to obtain hard statistics about the duplication of identity problem that was still just a hypothesis. The analysis proved that the duplication was real and led to the launching of a new project for the unique identification of patients for the entire network of PEPFAR implementation partners in Cote d’Ivoire. 
-Note: Information about the unique patient identification project can be found here.
+Note: Information about the unique patient identification project can be found her: [Link will be posted soon]
 
 This solution directly contribute to solving the problem of duplicated identities in the Electronic Health-care Record system (SIGDEP2) used by the health-care units and administered by the Ministry of Health in Cote d’Ivoire. Prior studies have revealed that the duplication of identities exists both within the health-care units themselves and across the network. In other words, an individual may be found more than once within the patient’s registry at a given health care unit. That same individual may also be found more than once across multiple health care units. 
 
@@ -32,11 +32,11 @@ Third, consult the simple Python source code that uses machine learning techniqu
 The cost of this solution is negligeable as the tools (Python and machine learning libraries) are all open source and the techniques on how to use the python code is accessible to any developer with reasonable Python coding skills.
 
 
-# How to run the script ?
+# How do you run the script?
 
-You have to add libraries to the mahcine which will run the script and launch it
+First ensure that you have Python 3 installed on your machine. This script has only been tested with Python 3.6.x but may work with previous versions. Then follow the steps below
 
-# Installing virtualenv
+## Installing virtualenv
 
 <a href="https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/">virtualenv</a> is used to manage Python packages for different projects. Using virtualenv allows you to avoid installing Python packages globally which could break system tools or other projects. You can install virtualenv using pip.
 
@@ -44,7 +44,7 @@ You have to add libraries to the mahcine which will run the script and launch it
   python3 -m pip install --user virtualenv
 </pre>
 
-# Activating a virtual environment
+## Activate the virtual environment
 
 Before you can start installing or using packages in your virtual environment you’ll need to activate it. Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH
 
@@ -52,9 +52,9 @@ Before you can start installing or using packages in your virtual environment yo
 source env/bin/activate
 </pre>
 
-# Installing packages
+## Installing packages
 
-Now that you’re in your virtual environment you can install packages. Let’s install the Requests library from the Python Package Index (PyPI):
+Now that you’re in your virtual environment you can install the necessary packages/libraries. Let’s install the Requests library from the Python Package Index (PyPI):
 
 <pre>
 pip install dedupe
@@ -69,5 +69,11 @@ pip install future
 pip install unidecode
 </pre>
 
-# Run the script
-python dedupecode.py
+## Run the script
+Finally you can the code using the following command: 
+
+<pre>
+python3 dedupecode.py
+</pre>
+
+## Output
