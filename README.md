@@ -45,6 +45,11 @@ First ensure that you have Python 3 installed on your machine. This script has o
   python3 -m pip install --user virtualenv
 </pre>
 
+## Create the virtual environment
+<pre>
+  python3 -m venv env
+</pre>
+
 ## Activate the virtual environment
 
 Before you can start installing or using packages in your virtual environment you’ll need to activate it. Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH:
