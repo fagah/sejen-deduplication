@@ -16,10 +16,6 @@ import optparse
 import dedupe
 from unidecode import unidecode
 
-
-
-
-
 ## Comparateur personnalise ##
 def transfertComparator(field_1, field_2) :
   field_1=float(field_1)
@@ -85,7 +81,7 @@ if __name__ == '__main__':
 
     # ## Setup
     
-    input_file = 'icap.csv'
+    input_file = 'small_dataset.csv'
     output_file = 'doublon4_out.csv'
     settings_file = 'doublon_setting'
     training_file = 'doublon_training.json'
@@ -104,8 +100,6 @@ if __name__ == '__main__':
     
         # Définir les champs sur lesquels Dedupe sera attentif
         
-        
-           
         fields = [
         {'field' : 'family_name', 'type': 'String'},
         {'field' : 'given_name', 'type': 'String'},
@@ -182,13 +176,16 @@ if __name__ == '__main__':
         writer = csv.DictWriter(f_output, fieldnames=fieldnames)
         writer.writeheader()
     
+        line_number = 1
         for row_id, row in enumerate(reader):
             print(row_id)
             print(row)
             print('##################################################################')
             print(cluster_membership)
-            row.update(cluster_membership[row_id])
-            writer.writerow(row)
+            if(row_id < len(cluster_membership)):
+                row.update(cluster_membership[line_number])
+                writer.writerow(row)
+                line_number = line_number + 1
     
     '''print('clustering...')
     clustered_dupes = deduper.match(data_d, threshold)
