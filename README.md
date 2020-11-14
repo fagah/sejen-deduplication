@@ -33,14 +33,23 @@ You can find a small sample of representative data which demonstrates these inpe
 
 Second, consult the simple Python source code that uses machine learning techniques to deduplicate the data. “Fake” test data is provided to exercise the code.
 
-
-
-
 # How do you run the script?
 
-First ensure that you have Python 3 installed on your machine. This script has only been tested with Python 3.6.x but may work with previous versions. Then follow the steps below:
+First ensure that you have Python 3 installed on your machine. This script has only been tested with Python 3.6.x but may work with previous versions. 
 
-## Installing virtualenv
+You can download python for your operatin system from this web site: https://www.python.org/downloads/
+
+Then follow the steps below:
+
+## Clone this repository using git
+
+Clone the repo and navigate to it
+<pre>
+  git clone https://github.com/fagah/sejen-deduplication.git
+  cd sejen-deduplication/
+</pre>
+
+## Installing virtualenv (this should need to be done only once)
 
 <a href="https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/">virtualenv</a> is used to manage Python packages for different projects. Using virtualenv allows you to avoid installing Python packages globally which could break system tools or other projects. You can install virtualenv using pip.
 
@@ -48,17 +57,17 @@ First ensure that you have Python 3 installed on your machine. This script has o
   python3 -m pip install --user virtualenv
 </pre>
 
-## Create the virtual environment
+## Create the virtual environment (this should need to be done only once)
 <pre>
   python3 -m venv env
 </pre>
 
-## Activate the virtual environment
+## Activate the virtual environment (this should be done EVERY TIME before running the code that follows
 
 Before you can start installing or using packages in your virtual environment you’ll need to activate it. Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH:
 
 <pre>
-source env/bin/activate
+  source env/bin/activate
 </pre>
 
 ## Installing packages
@@ -66,20 +75,24 @@ source env/bin/activate
 Now that you’re in your virtual environment you can install the necessary packages/libraries. Let’s install the Requests library from the Python Package Index (PyPI):
 
 <pre>
-pip install dedupe
+  pip install dedupe
 </pre>
 
 <pre>
-pip install future
+  pip install future
 </pre>
 
 
 <pre>
-pip install unidecode
+  pip install unidecode
 </pre>
 
-## Run the script
-Finally you can the code using the following command: 
+## Train the machine learning model
+If you are totally new to Machine Learning, we recommend that you read and watch the following:
+
+Machine learning basics (7 minutes video): https://youtu.be/ukzFI9rgwfU
+
+In order to train  
 
 <pre>
 python3 dedupecode.py
