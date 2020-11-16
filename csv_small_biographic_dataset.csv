@@ -2,7 +2,7 @@ id,family_name,given_name,cel_n0,tel_n0,birthdate,gender,ville_n0,commune_n0
 1,Agah,Franck,764-983-7525 x45103,979-539-5743,11/24/1986,2,Nikolashaven,Apt. 563
 2,Agah,Janel F.,764-983-7525 x45103,979-539-5743,11/24/1986,2,Nikolashaven,Apt. 563
 3,Kouyate,Alain,930-654-5552 x0269,277.286.3579,10/23/1978,1,South Cedrickshire,Suite 534
-4,Kouyate,A.,930-654-5552 x0269,277.286.3579,10/23/1978,1,South Cedrickshire,Suite 534
+4,Kouyate,Alan,930-654-5552 x0269,277.286.3579,10/23/1978,1,South Cedrickshire,Suite 534
 5,Okia,Djolo Lyna,867.997.0182 x39946,726.250.8615 x2993,4/6/1974,1,Donnellyview,Suite 957
 6,Kassil,Yvon,973.953.7233,821-922-6932 x094,5/23/1991,2,Jovaniberg,Suite 323
 7,Kassil,Yvon,973.953.7233,821-922-6932 x094,5/23/1991,2,Jovaniberg,Suite 323
@@ -16,15 +16,14 @@ id,family_name,given_name,cel_n0,tel_n0,birthdate,gender,ville_n0,commune_n0
 15,Assogba,Mirabelle,(935) 468-2092 x88919,241.311.9479,3/12/1972,2,Erikburgh,Suite 544
 16,Willms,Misty,1-478-775-0947,1-263-452-1437 x7852,9/16/1970,2,Hollyfurt,Suite 237
 17,Assogba,Mirabelle,(935) 468-2092 x88919,241.311.9479,3/12/1972,2,Erikburgh,Suite 544
-17,O'Kon,Paulette,895.280.7548,993.906.8196 x08175,4/25/1986,2,Port Sebastian,Apt. 080
 18,Agah,Lya,468.757.8563,739.617.7718,8/17/1990,2,New Joshuah,Apt. 819
 19,Hoppe,Paula,(954) 812-1362,219.263.4667,10/26/1996,2,Myronton,Apt. 420
 20,Assamoi,Pierre,(802) 303-2213 x62854,(871) 687-7252 x032,12/24/1989,1,Watsicahaven,Apt. 188
 21,Davis,Billie,(897) 765-8517 x145,(266) 828-9090,5/4/1972,2,Giovanniport,Suite 838
-22,Assamoi,A. Pierre,(802) 303-2213 x62854,(871) 687-7252 x032,12/24/1989,1,Watsicahaven,Apt. 188
+22,Assamio,Pierre,(802) 303-2213 x62854,(871) 687-7252 x032,12/24/1989,1,Watsicahaven,Apt. 188
 23,Kone,Souleymane,510-357-3621 x5485,(434) 719-0501 x012,2/6/1986,2,Arvelville,Suite 225
 24,Gottlieb,Bethany,732.950.1843 x1556,1-541-225-9700 x15361,6/5/1970,1,Schummview,Suite 967
-25,Kone,N. Souleymane,510-357-3621 x5485,(434) 719-0501 x012,2/6/1986,2,Arvelville,Suite 225
+25,Kone,Souleymane N.,510-357-3621 x5485,(434) 719-0501 x012,2/6/1986,2,Arvelville,Suite 225
 26,Monahan,Jane,1-308-554-3637 x254,(891) 923-2780,2/15/1988,2,New Elisha,Suite 231
 27,Agah,Lyran,(728) 341-1632 x28875,935.351.8612,9/20/1980,2,Danielbury,Apt. 086
 28,Block,Beatrice,932.391.2576,(950) 515-8474,8/20/1988,1,Kathrynton,Apt. 205
