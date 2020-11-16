@@ -1,4 +1,4 @@
-# sejen-deduplication
+# Deduplication of records based on biographic data
 Using this simple machine learning techniques for identity de-duplication based on biographic data.
 
 ## Who is this resource for?
