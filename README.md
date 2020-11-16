@@ -28,10 +28,9 @@ The cost of this solution is negligeable as the tools (Python and machine learni
 # How do I get started?
 First, review the characteristics of the data that was used by this resource. You may note similarities with your own program data. In the example for this resource we use common demographic fields such as: Family Name, Given Name, Phone Number, Birth Date and Gender. With this kind of data, you will often find that small errors are introduced during data entry. Therefore, an exact match on all the fields is then not possible to determine whether two records are duplicated.  
 
-You can find a small sample of representative data which demonstrates these inperfections here: https://github.com/fagah/sejen-deduplication/blob/master/small-dataset.csv 
+You can find a small sample of representative data which demonstrates these inperfections here: XXXXXXXXX 
 
-
-Second, consult the simple Python source code that uses machine learning techniques to deduplicate the data. “Fake” test data is provided to exercise the code.
+Second, consult the simple Python source code that uses machine learning techniques to deduplicate the data. A small sample data set is provided to exercise the code.
 
 # How do you run the script?
 
@@ -44,6 +43,7 @@ Then follow the steps below:
 ## Clone this repository using git
 
 Clone the repo and navigate to it
+
 <pre>
   git clone https://github.com/fagah/sejen-deduplication.git
   cd sejen-deduplication/
@@ -75,27 +75,22 @@ Before you can start installing or using packages in your virtual environment yo
 Now that you’re in your virtual environment you can install the necessary packages/libraries. Let’s install the Requests library from the Python Package Index (PyPI):
 
 <pre>
-  pip install dedupe
+  pip install -r requirements.txt
 </pre>
 
+## Dedupe records
+You can now run the example deduplication code:
 <pre>
-  pip install future
+  python3 csv_example.py
 </pre>
 
+This python code will create an interactive shell to ask you about potential duplicates. Use 'y' (yes), 'n' (no) and 'u' (unsure) keys to flag them, 'f' (finished) when you are finished. The data set is small, so just do 5 or 6 of these. 
 
-<pre>
-  pip install unidecode
-</pre>
+In the end, this python code will generate a file called *csv_example_output.csv* that you can then inspect: 
+- Open the file in Excel
+- Sort the file on the field cluster_id
 
-## Train the machine learning model
-If you are totally new to Machine Learning, we recommend that you read and watch the following:
+All the rows with the same cluster id are duplicates that the python library dedupe found. YOu will likely notice a few duplicates that were not caught. That's because we need a more robust training set with more examples of duplicate records. 
 
-Machine learning basics (7 minutes video): https://youtu.be/ukzFI9rgwfU
+For more informationm consult the excellent site https://dedupe.io/
 
-In order to train  
-
-<pre>
-python3 dedupecode.py
-</pre>
-
-## Output
