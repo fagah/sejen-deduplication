@@ -15,7 +15,7 @@ This deduplication solution was applied to the database of patient records of th
 ## How do I get started?
 First, review the characteristics of the data that was used by this resource. You may note similarities with your own program data. In the example for this resource we use common demographic fields such as: *Family Name, Given Name, Phone Number, Birth Date and Gender*. With this kind of data, you will often find that small errors are introduced during data entry. Therefore, an exact match on all the fields is not possible to determine whether two records are duplicated.  
 
-You can find a small sample of representative data which demonstrates these inperfections here: ... 
+You can find a small sample of representative data which demonstrates these inperfections in the file *csv_small_biographic_dataset.csv* 
 
 Second, consult the simple Python source code that uses machine learning techniques to deduplicate the data. By default, this python code uses the small data sample provided.
 
