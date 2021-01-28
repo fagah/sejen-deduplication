@@ -79,5 +79,5 @@ In the end, this python code will generate a file called *csv_example_output.csv
 
 All the rows with the same cluster id are duplicates that the python library dedupe found. YOu will likely notice a few duplicates that were not caught. That's because we need a more robust training set with more examples of duplicate records. 
 
-<big>For more information consult the excellent site https://dedupe.io/ from which we borrowed heavily. All the credit goes to the makers of this excellent open-source machine learning library!</big>
+For more information consult the excellent site https://dedupe.io/ from which we borrowed heavily. All the credit goes to the makers of this excellent open-source machine learning library.
 
